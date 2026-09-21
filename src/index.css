@@ -1,0 +1,414 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  width: 100%;
+  min-height: 100%;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  background: #0b0d10;
+  color: #f3f4f6;
+}
+
+body {
+  overflow: hidden;
+}
+
+button,
+select,
+input {
+  font: inherit;
+}
+
+.app-shell {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  background: #0b0d10;
+}
+
+.sidebar {
+  padding: 28px 24px;
+  border-right: 1px solid #262a31;
+  background: #111419;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  overflow-y: auto;
+}
+
+.brand {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -0.8px;
+}
+
+.subtitle {
+  margin: 8px 0 0;
+  color: #9ca3af;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.panel-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.section-label {
+  color: #d1d5db;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.car-select {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #343943;
+  background: #1a1e24;
+  color: white;
+  outline: none;
+}
+
+.car-select:focus {
+  border-color: #6b7280;
+}
+
+.model-info {
+  padding: 14px;
+  border: 1px solid #2b3038;
+  border-radius: 10px;
+  background: #171a1f;
+}
+
+.model-name {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.model-type {
+  margin-top: 4px;
+  color: #8f96a3;
+  font-size: 13px;
+}
+
+.part-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.part-option {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: #e5e7eb;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.part-option input {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.part-option.disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.part-option.disabled input {
+  cursor: default;
+}
+
+.hint {
+  margin-top: auto;
+  color: #6b7280;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.viewer-panel {
+  position: relative;
+  min-width: 0;
+  height: 100vh;
+  background:
+    radial-gradient(circle at center, #171b20 0%, #0b0d10 70%);
+}
+
+.viewer-panel > div {
+  height: 100%;
+}
+
+.reference-help {
+  padding: 12px 14px;
+  border-radius: 8px;
+  background: #171a1f;
+  border: 1px solid #2b3038;
+  color: #aeb4be;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.selected-part-card {
+  margin-top: 4px;
+  padding: 15px;
+  border-radius: 10px;
+  background: #171a1f;
+  border: 1px solid #30353e;
+}
+
+.selected-part-label {
+  margin-bottom: 8px;
+  color: #747c89;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.selected-part-name {
+  font-size: 19px;
+  font-weight: 700;
+  color: #f3f4f6;
+}
+
+.selected-part-section {
+  margin-top: 3px;
+  color: #8c95a3;
+  font-size: 12px;
+}
+
+.selected-part-description {
+  margin: 12px 0 0;
+  color: #b6bdc8;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.no-selection {
+  color: #737b87;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.camera-buttons {
+  display: flex;
+  gap: 8px;
+  padding: 15px 18px 0;
+}
+
+.camera-buttons button {
+  padding: 8px 13px;
+  border: 1px solid #343943;
+  border-radius: 7px;
+  background: #171a1f;
+  color: #e5e7eb;
+  cursor: pointer;
+}
+
+.camera-buttons button:hover {
+  background: #232830;
+}
+
+.annotation-box {
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid #30353e;
+}
+
+.annotation-input {
+  width: 100%;
+  margin-top: 8px;
+  padding: 10px 11px;
+  resize: vertical;
+  min-height: 90px;
+
+  border: 1px solid #343943;
+  border-radius: 8px;
+
+  background: #101317;
+  color: #e5e7eb;
+
+  font-family: inherit;
+  font-size: 13px;
+  line-height: 1.5;
+  outline: none;
+}
+
+.annotation-input:focus {
+  border-color: #707784;
+}
+
+.annotation-input::placeholder {
+  color: #606773;
+}
+
+.save-annotation-button {
+  width: 100%;
+  margin-top: 9px;
+  padding: 9px 12px;
+
+  border: 1px solid #444b56;
+  border-radius: 7px;
+
+  background: #252a32;
+  color: white;
+
+  cursor: pointer;
+}
+
+.save-annotation-button:hover:not(:disabled) {
+  background: #303640;
+}
+
+.save-annotation-button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.saved-annotations {
+  margin-top: 18px;
+}
+
+.annotation-item {
+  margin-top: 8px;
+  padding: 10px;
+
+  border-radius: 7px;
+  background: #101317;
+  border: 1px solid #292e36;
+
+  color: #c9ced6;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.selected-part-card {
+  margin-top: 4px;
+  padding: 15px;
+  border-radius: 10px;
+  background: #171a1f;
+  border: 1px solid #30353e;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    background 0.2s ease;
+}
+
+.selected-part-title-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.selected-part-color {
+  width: 8px;
+  height: 28px;
+  border-radius: 5px;
+  flex-shrink: 0;
+}
+
+.fia-filter-box {
+  margin-top: 14px;
+  padding: 14px;
+  border: 1px solid #2b3038;
+  border-radius: 10px;
+  background: #14171c;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.isolate-buttons {
+  display: flex;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.isolate-button,
+.show-all-button {
+  width: 100%;
+  padding: 9px 12px;
+
+  border: 1px solid #414752;
+  border-radius: 7px;
+
+  background: #20252c;
+  color: #e5e7eb;
+
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.isolate-button:hover,
+.show-all-button:hover {
+  background: #2b313a;
+}
+
+.annotation-item {
+  padding: 12px;
+  border: 1px solid #2d323a;
+  border-radius: 8px;
+  background: #12151a;
+}
+
+.annotation-text {
+  color: #d7dbe0;
+  font-size: 13px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.annotation-actions {
+  display: flex;
+  gap: 7px;
+}
+
+.annotation-action-button {
+  padding: 6px 10px;
+  border: 1px solid #404650;
+  border-radius: 6px;
+  background: #22272e;
+  color: #e5e7eb;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.annotation-action-button:hover {
+  background: #2c323b;
+}
+
+.annotation-action-button.secondary {
+  color: #aeb4bd;
+}
+
+.annotation-action-button.delete {
+  color: #ff8f8f;
+  border-color: #5d3434;
+  background: #25191a;
+}
+
+.annotation-action-button.delete:hover {
+  background: #351f20;
+}
+
+.annotation-action-button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.edit-annotation-input {
+  margin-bottom: 8px;
+}

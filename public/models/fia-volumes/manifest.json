@@ -1,0 +1,282 @@
+[
+  {
+    "name": "RV_FLOOR_BODY",
+    "file": "rv-floor-body.stl",
+    "color": "#26a640"
+  },
+  {
+    "name": "RV_FLOOR_SIDEWALL",
+    "file": "rv-floor-sidewall.stl",
+    "color": "#40bf59"
+  },
+  {
+    "name": "RV_FLOOR_FOOT",
+    "file": "rv-floor-foot.stl",
+    "color": "#33cc66"
+  },
+  {
+    "name": "RV_FLOOR_BOARD",
+    "file": "rv-floor-board.stl",
+    "color": "#1a99cc"
+  },
+  {
+    "name": "RV_FLOOR_BIB",
+    "file": "rv-floor-bib.stl",
+    "color": "#1a33b2"
+  },
+  {
+    "name": "RV_FLOOR_LED",
+    "file": "rv-floor-led.stl",
+    "color": "#e54d26"
+  },
+  {
+    "name": "RV_FLOOR_CORNER",
+    "file": "rv-floor-corner.stl",
+    "color": "#d9661a"
+  },
+  {
+    "name": "RV_PLANK",
+    "file": "rv-plank.stl",
+    "color": "#99804d"
+  },
+  {
+    "name": "RV_NOSE",
+    "file": "rv-nose.stl",
+    "color": "#ebebeb"
+  },
+  {
+    "name": "RV_CH_FRONT",
+    "file": "rv-ch-front.stl",
+    "color": "#d9d9e5"
+  },
+  {
+    "name": "RV_CH_MID",
+    "file": "rv-ch-mid.stl",
+    "color": "#bfcce0"
+  },
+  {
+    "name": "RV_CH_FRONT_MIN",
+    "file": "rv-ch-front-min.stl",
+    "color": "#80bfe5"
+  },
+  {
+    "name": "RV_MIRROR_BODY",
+    "file": "rv-mirror-body.stl",
+    "color": "#cccccc"
+  },
+  {
+    "name": "RV_DRI_COOL",
+    "file": "rv-dri-cool.stl",
+    "color": "#99e5f2"
+  },
+  {
+    "name": "RV_SIDEPOD",
+    "file": "rv-sidepod.stl",
+    "color": "#4dccd9"
+  },
+  {
+    "name": "RV_EC",
+    "file": "rv-ec.stl",
+    "color": "#594726"
+  },
+  {
+    "name": "RV_BW_APERTURE",
+    "file": "rv-bw-aperture.stl",
+    "color": "#b2b266"
+  },
+  {
+    "name": "RV_TAIL",
+    "file": "rv-tail.stl",
+    "color": "#808c99"
+  },
+  {
+    "name": "RV_TAILPIPE",
+    "file": "rv-tailpipe.stl",
+    "color": "#666673"
+  },
+  {
+    "name": "RV_FW_PROFILES",
+    "file": "rv-fw-profiles.stl",
+    "color": "#e5d980"
+  },
+  {
+    "name": "RV_FWEP_BODY",
+    "file": "rv-fwep-body.stl",
+    "color": "#e5994d"
+  },
+  {
+    "name": "RV_FWEP_OFP",
+    "file": "rv-fwep-ofp.stl",
+    "color": "#d9a659"
+  },
+  {
+    "name": "RV_FWEP_IFP",
+    "file": "rv-fwep-ifp.stl",
+    "color": "#ccb266"
+  },
+  {
+    "name": "RV_FWEP_DIVEPLANE",
+    "file": "rv-fwep-diveplane.stl",
+    "color": "#b2bf73"
+  },
+  {
+    "name": "RV_FW_STRAKE",
+    "file": "rv-fw-strake.stl",
+    "color": "#99a680"
+  },
+  {
+    "name": "RV_RW_PROFILES",
+    "file": "rv-rw-profiles.stl",
+    "color": "#f21a1a"
+  },
+  {
+    "name": "RV_RWEP_BODY",
+    "file": "rv-rwep-body.stl",
+    "color": "#d92626"
+  },
+  {
+    "name": "RV_RW_PYLON",
+    "file": "rv-rw-pylon.stl",
+    "color": "#bf3333"
+  },
+  {
+    "name": "RV_HANGER",
+    "file": "rv-hanger.stl",
+    "color": "#e58033"
+  },
+  {
+    "name": "RV_FLOOR_SPHERE",
+    "file": "rv-floor-sphere.stl",
+    "color": "#8033e5"
+  },
+  {
+    "name": "RV_FLOOR_FENCE",
+    "file": "rv-floor-fence.stl",
+    "color": "#33e580"
+  },
+  {
+    "name": "RV_FLOOR_BRACE",
+    "file": "rv-floor-brace.stl",
+    "color": "#e53399"
+  },
+  {
+    "name": "RV_ROLL_HOOP",
+    "file": "rv-roll-hoop.stl",
+    "color": "#99e533"
+  },
+  {
+    "name": "RV_MIRROR_ISTAY",
+    "file": "rv-mirror-istay.stl",
+    "color": "#3399e5"
+  },
+  {
+    "name": "RV_MIRROR_RSTAY",
+    "file": "rv-mirror-rstay.stl",
+    "color": "#cccc33"
+  },
+  {
+    "name": "RV_TAILPIPE_BRACKET",
+    "file": "rv-tailpipe-bracket.stl",
+    "color": "#33cccc"
+  },
+  {
+    "name": "RV_FW_PYLON",
+    "file": "rv-fw-pylon.stl",
+    "color": "#cc33cc"
+  },
+  {
+    "name": "RV_FW_ADJUSTER",
+    "file": "rv-fw-adjuster.stl",
+    "color": "#e58033"
+  },
+  {
+    "name": "RV_FW_SLM_CLFAIRING",
+    "file": "rv-fw-slm-clfairing.stl",
+    "color": "#8033e5"
+  },
+  {
+    "name": "RV_FW_SLM_MID",
+    "file": "rv-fw-slm-mid.stl",
+    "color": "#33e580"
+  },
+  {
+    "name": "RV_FW_SLM_LINKAGE",
+    "file": "rv-fw-slm-linkage.stl",
+    "color": "#e53399"
+  },
+  {
+    "name": "RV_RW_BRACE",
+    "file": "rv-rw-brace.stl",
+    "color": "#99e533"
+  },
+  {
+    "name": "RV_RW_SEPARATOR",
+    "file": "rv-rw-separator.stl",
+    "color": "#3399e5"
+  },
+  {
+    "name": "RV_RW_SLM_FAIRING",
+    "file": "rv-rw-slm-fairing.stl",
+    "color": "#cccc33"
+  },
+  {
+    "name": "RV_RW_BRACKET",
+    "file": "rv-rw-bracket.stl",
+    "color": "#33cccc"
+  },
+  {
+    "name": "RV_SLIP",
+    "file": "rv-slip.stl",
+    "color": "#cc33cc"
+  },
+  {
+    "name": "RV_BIB_STAY",
+    "file": "rv-bib-stay.stl",
+    "color": "#e58033"
+  },
+  {
+    "name": "RV_RW_NOTCH",
+    "file": "rv-rw-notch.stl",
+    "color": "#8033e5"
+  },
+  {
+    "name": "RV_FLOOR_TYRE_IR",
+    "file": "rv-floor-tyre-ir.stl",
+    "color": "#33e580"
+  },
+  {
+    "name": "RV_DIFF_APPROX",
+    "file": "rv-diff-approx.stl",
+    "color": "#666680"
+  },
+  {
+    "name": "RV_COCKPIT_DRIVER_APPROX",
+    "file": "rv-cockpit-driver-approx.stl",
+    "color": "#4d99cc"
+  },
+  {
+    "name": "RV_HALO_APPROX",
+    "file": "rv-halo-approx.stl",
+    "color": "#b2b2b2"
+  },
+  {
+    "name": "RV_FWH_DRUM_APPROX_R",
+    "file": "rv-fwh-drum-approx-r.stl",
+    "color": "#4d4d59"
+  },
+  {
+    "name": "RV_FWH_DRUM_APPROX_L",
+    "file": "rv-fwh-drum-approx-l.stl",
+    "color": "#4d4d59"
+  },
+  {
+    "name": "RV_RWH_DRUM_APPROX_R",
+    "file": "rv-rwh-drum-approx-r.stl",
+    "color": "#4d4d59"
+  },
+  {
+    "name": "RV_RWH_DRUM_APPROX_L",
+    "file": "rv-rwh-drum-approx-l.stl",
+    "color": "#4d4d59"
+  }
+]
